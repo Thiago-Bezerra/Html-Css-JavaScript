@@ -1,0 +1,121 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background-image: url('http://simpleicon.com/wp-content/uploads/note.png');
+    background-color:#188f4a;
+    background-size: 95vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color:#FAFAFA;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color:#FAFAFA;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  
+  input{
+    font-size:1.2em;
+    background:#F8BBD0;
+    border: 0;
+    max-width:120px;
+    border-radius:15px;
+    border:0;
+    font-family: sans-serif;
+    font-size: 2em;
+    color:#9575CD;
+    box-shadow: rgba(0,0,0,0,2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    margin-left:36%;
+    margin-top: 5%;
+  }
+  input, select, textarea, button{
+    border-radius: 5px
+  }
+  input:hover{
+    background:#FFF9C4;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+  }
+  .container{
+    margin-bottom: 1em;
+  }
+  .container label{
+    margin-bottom: 0,2em;
+    color:#F8BBD0;
+  }
+  .container select option{
+    padding-right: 1em;
+  }
+  .container input:focus,.container select:focus, .container textarea:focus {
+    background:#fafafa;
+  }
+  .campo imput[type='number'], .campo select, .campo textarea{
+    padding: 0,2em;
+    border: 1px solid #D81B60;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+  }
+  .campo input:focus, .campo select:focus, .campo textarea:focus {
+    background:#F8BBD0;
+  }
+  button{
+    font-size:1.2em;
+    background:#F8BBD0;
+    border: 0;
+    margin-bottom: 1em;
+    color: #D81B60;
+    box-shadow: rgba(0,0,0,0,2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position:absolute;
+    top: 90%;
+    left:50%;
+    margin-right: -50%;
+    transform:translate(-50%, -50%);
+  }
+  
+  button:hover{
+    background:#FFF9C4;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+  }
+  .result{
+    color:#fafafa;
+    position:absolute;
+    top: 20%;
+    left:50%;
+    margin-right: -50%;
+    transform:translate(-50%, -50%);
+  }
+  .botao,select{
+    cursor:pointer;
+  }
+  .teste{
+    background-color:#000000;
+    color:#fafafa;
+    position:absolute;
+    top: 48%;
+    left:50%;
+    margin-right: -50%;
+    transform:translate(-50%, -50%);
+  }
